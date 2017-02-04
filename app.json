@@ -1,0 +1,8 @@
+{
+  "name": "E1 Technology Radar",
+  "description": "E1 Technology Radar",
+  "repository": "https://stash.englishtown.com/projects/ETG/repos/e1.techradar",
+  "logo": "http://e1techradar.herokuapp.com/logo-medium.gif",
+  "keywords": ["e1", "tech radar", "technology radar", "technology"],
+  "image": "heroku/nodejs"
+}

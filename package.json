@@ -1,0 +1,27 @@
+{
+  "name": "e1.techradar",
+  "version": "0.0.1",
+  "description": "E1 Technology Radar",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://stash.englishtown.com/projects/ETG/repos/e1.techradar"
+  },
+  "keywords": [
+    "e1",
+    "tech radar",
+    "technology radar",
+    "technology"
+  ],
+  "license": "MIT"
+}
