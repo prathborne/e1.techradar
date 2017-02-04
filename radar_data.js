@@ -1,6 +1,6 @@
 var h = 1165;
 var w = 1450;
-var lastUpdated = new Date(document. .lastModified);
+var lastUpdated = document.lastModified;
 
 var radar_arcs = [
   {'r': 100, 'name': 'ADOPT'},
@@ -35,63 +35,63 @@ var radar_data = [
   {
     "name": "Fiddler",
     "pc": {
-      "r": 78,
-      "t": 150
+      "r": 34,
+      "t": 120
     },
     "movement": "c"
   },
   {
     "name": "StyleLint",
     "pc": {
-      "r": 64,
-      "t": 135
+      "r": 71,
+      "t": 165
     },
     "movement": "c"
   },
   {
     "name": "Enzyme",
     "pc": {
-      "r": 36,
-      "t": 105
+      "r": 67,
+      "t": 135
     },
     "movement": "c"
   },
   {
     "name": "ESLint",
     "pc": {
-      "r": 66,
-      "t": 120
+      "r": 39,
+      "t": 150
     },
     "movement": "c"
   },
   {
     "name": "PostCSS",
     "pc": {
-      "r": 40,
-      "t": 165
+      "r": 80,
+      "t": 105
     },
     "movement": "c"
   },
   {
     "name": "Fisheye",
     "pc": {
-      "r": 66,
-      "t": 142
+      "r": 80,
+      "t": 127
     },
     "movement": "c"
   },
   {
     "name": "Crucible",
     "pc": {
-      "r": 79,
-      "t": 112
+      "r": 39,
+      "t": 142
     },
     "movement": "c"
   },
   {
     "name": "Appium",
     "pc": {
-      "r": 82,
+      "r": 46,
       "t": 172
     },
     "movement": "c"
@@ -99,23 +99,23 @@ var radar_data = [
   {
     "name": "Selenium",
     "pc": {
-      "r": 39,
-      "t": 127
+      "r": 88,
+      "t": 157
     },
     "movement": "c"
   },
   {
     "name": "xUnit",
     "pc": {
-      "r": 39,
-      "t": 157
+      "r": 35,
+      "t": 112
     },
     "movement": "c"
   },
   {
     "name": "Karma",
     "pc": {
-      "r": 59,
+      "r": 66,
       "t": 95
     },
     "movement": "c"
@@ -123,7 +123,7 @@ var radar_data = [
   {
     "name": "Jmeter",
     "pc": {
-      "r": 55,
+      "r": 36,
       "t": 95
     },
     "movement": "c"
@@ -131,7 +131,7 @@ var radar_data = [
   {
     "name": "Redux",
     "pc": {
-      "r": 35,
+      "r": 51,
       "t": 95
     },
     "movement": "c"
@@ -139,7 +139,7 @@ var radar_data = [
   {
     "name": "PostMan",
     "pc": {
-      "r": 55,
+      "r": 37,
       "t": 95
     },
     "movement": "c"
@@ -147,7 +147,7 @@ var radar_data = [
   {
     "name": "OpenAPI (Swagger)",
     "pc": {
-      "r": 73,
+      "r": 83,
       "t": 95
     },
     "movement": "c"
@@ -155,7 +155,7 @@ var radar_data = [
   {
     "name": "Chai",
     "pc": {
-      "r": 54,
+      "r": 41,
       "t": 95
     },
     "movement": "c"
@@ -163,7 +163,7 @@ var radar_data = [
   {
     "name": "Sinon",
     "pc": {
-      "r": 37,
+      "r": 67,
       "t": 95
     },
     "movement": "c"
@@ -171,7 +171,7 @@ var radar_data = [
   {
     "name": "JSON.net",
     "pc": {
-      "r": 87,
+      "r": 77,
       "t": 95
     },
     "movement": "c"
@@ -179,7 +179,7 @@ var radar_data = [
   {
     "name": "Topshelf",
     "pc": {
-      "r": 72,
+      "r": 62,
       "t": 95
     },
     "movement": "c"
@@ -187,7 +187,7 @@ var radar_data = [
   {
     "name": "Lodash",
     "pc": {
-      "r": 39,
+      "r": 31,
       "t": 95
     },
     "movement": "c"
@@ -195,7 +195,7 @@ var radar_data = [
   {
     "name": "Asp.Net Web API",
     "pc": {
-      "r": 51,
+      "r": 57,
       "t": 95
     },
     "movement": "c"
@@ -203,7 +203,7 @@ var radar_data = [
   {
     "name": "Autofac",
     "pc": {
-      "r": 47,
+      "r": 52,
       "t": 95
     },
     "movement": "c"
@@ -211,7 +211,7 @@ var radar_data = [
   {
     "name": "SoapUI",
     "pc": {
-      "r": 71,
+      "r": 65,
       "t": 95
     },
     "movement": "c"
@@ -219,7 +219,7 @@ var radar_data = [
   {
     "name": "MassTransit",
     "pc": {
-      "r": 70,
+      "r": 81,
       "t": 95
     },
     "movement": "c"
@@ -227,7 +227,7 @@ var radar_data = [
   {
     "name": "Quartz.net",
     "pc": {
-      "r": 38,
+      "r": 55,
       "t": 95
     },
     "movement": "c"
@@ -235,7 +235,7 @@ var radar_data = [
   {
     "name": "JSReport",
     "pc": {
-      "r": 56,
+      "r": 32,
       "t": 95
     },
     "movement": "c"
@@ -243,7 +243,7 @@ var radar_data = [
   {
     "name": "Automapper",
     "pc": {
-      "r": 40,
+      "r": 44,
       "t": 95
     },
     "movement": "c"
@@ -251,7 +251,7 @@ var radar_data = [
   {
     "name": "Bootstrap",
     "pc": {
-      "r": 58,
+      "r": 90,
       "t": 95
     },
     "movement": "c"
@@ -259,7 +259,7 @@ var radar_data = [
   {
     "name": "Moq",
     "pc": {
-      "r": 74,
+      "r": 89,
       "t": 95
     },
     "movement": "c"
@@ -268,7 +268,7 @@ var radar_data = [
     "name": "EPPPlus",
     "pc": {
       "r": 131,
-      "t": 115
+      "t": 103
     },
     "movement": "c"
   },
@@ -276,7 +276,7 @@ var radar_data = [
     "name": "ReactJS",
     "pc": {
       "r": 131,
-      "t": 151
+      "t": 175
     },
     "movement": "c"
   },
@@ -284,7 +284,7 @@ var radar_data = [
     "name": "BrowserSync",
     "pc": {
       "r": 142,
-      "t": 163
+      "t": 139
     },
     "movement": "c"
   },
@@ -292,7 +292,7 @@ var radar_data = [
     "name": "Asp.Net Core",
     "pc": {
       "r": 147,
-      "t": 139
+      "t": 127
     },
     "movement": "c"
   },
@@ -300,7 +300,7 @@ var radar_data = [
     "name": "Node.js ",
     "pc": {
       "r": 158,
-      "t": 127
+      "t": 163
     },
     "movement": "c"
   },
@@ -308,7 +308,7 @@ var radar_data = [
     "name": "Babel",
     "pc": {
       "r": 168,
-      "t": 175
+      "t": 115
     },
     "movement": "c"
   },
@@ -324,7 +324,7 @@ var radar_data = [
     "name": "Qt",
     "pc": {
       "r": 250,
-      "t": 101
+      "t": 111
     },
     "movement": "c"
   },
@@ -332,7 +332,7 @@ var radar_data = [
     "name": "Nightwatch",
     "pc": {
       "r": 250,
-      "t": 111
+      "t": 161
     },
     "movement": "c"
   },
@@ -340,7 +340,7 @@ var radar_data = [
     "name": "jQuery",
     "pc": {
       "r": 266,
-      "t": 171
+      "t": 131
     },
     "movement": "c"
   },
@@ -348,7 +348,7 @@ var radar_data = [
     "name": "Flux",
     "pc": {
       "r": 266,
-      "t": 161
+      "t": 101
     },
     "movement": "c"
   },
@@ -356,7 +356,7 @@ var radar_data = [
     "name": "Jade",
     "pc": {
       "r": 318,
-      "t": 123
+      "t": 107
     },
     "movement": "c"
   },
@@ -364,7 +364,7 @@ var radar_data = [
     "name": "Unity",
     "pc": {
       "r": 358,
-      "t": 115
+      "t": 139
     },
     "movement": "c"
   },
@@ -372,7 +372,7 @@ var radar_data = [
     "name": "Nunit",
     "pc": {
       "r": 358,
-      "t": 163
+      "t": 179
     },
     "movement": "c"
   },
@@ -380,7 +380,7 @@ var radar_data = [
     "name": "Asp.Net MVC",
     "pc": {
       "r": 358,
-      "t": 131
+      "t": 171
     },
     "movement": "c"
   },
@@ -388,7 +388,7 @@ var radar_data = [
     "name": "EasyNetQ",
     "pc": {
       "r": 374,
-      "t": 147
+      "t": 163
     },
     "movement": "c"
   },
@@ -396,7 +396,7 @@ var radar_data = [
     "name": "Entity Framework",
     "pc": {
       "r": 390,
-      "t": 171
+      "t": 99
     },
     "movement": "c"
   },
@@ -404,7 +404,7 @@ var radar_data = [
     "name": "AngularJS 1.x",
     "pc": {
       "r": 390,
-      "t": 179
+      "t": 155
     },
     "movement": "c"
   }
@@ -419,47 +419,47 @@ var radar_data = [
   {
     "name": "AWS S3",
     "pc": {
-      "r": 81,
-      "t": 10
+      "r": 44,
+      "t": 25
     },
     "movement": "c"
   },
   {
     "name": "AWS RDS",
     "pc": {
-      "r": 59,
-      "t": 55
+      "r": 69,
+      "t": 70
     },
     "movement": "c"
   },
   {
     "name": "SQL Server 2016",
     "pc": {
-      "r": 80,
-      "t": 25
+      "r": 32,
+      "t": 55
     },
     "movement": "c"
   },
   {
     "name": "Tableau",
     "pc": {
-      "r": 37,
-      "t": 40
+      "r": 74,
+      "t": 10
     },
     "movement": "c"
   },
   {
     "name": "Redis",
     "pc": {
-      "r": 62,
-      "t": 70
+      "r": 76,
+      "t": 40
     },
     "movement": "c"
   },
   {
     "name": "DataModeler",
     "pc": {
-      "r": 41,
+      "r": 40,
       "t": 77
     },
     "movement": "c"
@@ -467,15 +467,15 @@ var radar_data = [
   {
     "name": "ElasticSearch",
     "pc": {
-      "r": 42,
-      "t": 17
+      "r": 74,
+      "t": 32
     },
     "movement": "c"
   },
   {
     "name": "CacheManager",
     "pc": {
-      "r": 41,
+      "r": 45,
       "t": 62
     },
     "movement": "c"
@@ -484,7 +484,7 @@ var radar_data = [
     "name": "Flink",
     "pc": {
       "r": 184,
-      "t": 20
+      "t": 80
     },
     "movement": "c"
   },
@@ -500,7 +500,7 @@ var radar_data = [
     "name": "RabbitMQ",
     "pc": {
       "r": 318,
-      "t": 28
+      "t": 52
     },
     "movement": "c"
   },
@@ -508,7 +508,7 @@ var radar_data = [
     "name": "Talend Open Studio",
     "pc": {
       "r": 326,
-      "t": 60
+      "t": 84
     },
     "movement": "c"
   },
@@ -516,7 +516,7 @@ var radar_data = [
     "name": "MemCached",
     "pc": {
       "r": 390,
-      "t": 4
+      "t": 68
     },
     "movement": "c"
   }
@@ -531,47 +531,47 @@ var radar_data = [
   {
     "name": "Docker",
     "pc": {
-      "r": 60,
-      "t": 235
+      "r": 31,
+      "t": 205
     },
     "movement": "c"
   },
   {
     "name": "AWS Cloudtrail",
     "pc": {
-      "r": 67,
-      "t": 250
+      "r": 90,
+      "t": 235
     },
     "movement": "c"
   },
   {
     "name": "AWS ELB",
     "pc": {
-      "r": 52,
-      "t": 220
+      "r": 49,
+      "t": 250
     },
     "movement": "c"
   },
   {
     "name": "AWS EC2",
     "pc": {
-      "r": 71,
-      "t": 190
+      "r": 68,
+      "t": 220
     },
     "movement": "c"
   },
   {
     "name": "Yarn",
     "pc": {
-      "r": 33,
-      "t": 205
+      "r": 50,
+      "t": 190
     },
     "movement": "c"
   },
   {
     "name": "Gulp",
     "pc": {
-      "r": 60,
+      "r": 67,
       "t": 257
     },
     "movement": "c"
@@ -579,31 +579,31 @@ var radar_data = [
   {
     "name": "NPM",
     "pc": {
-      "r": 39,
-      "t": 227
+      "r": 44,
+      "t": 212
     },
     "movement": "c"
   },
   {
     "name": "Powershell 4",
     "pc": {
-      "r": 76,
-      "t": 242
+      "r": 72,
+      "t": 227
     },
     "movement": "c"
   },
   {
     "name": "Webpack",
     "pc": {
-      "r": 57,
-      "t": 212
+      "r": 54,
+      "t": 242
     },
     "movement": "c"
   },
   {
     "name": "Nginx",
     "pc": {
-      "r": 67,
+      "r": 57,
       "t": 197
     },
     "movement": "c"
@@ -611,7 +611,7 @@ var radar_data = [
   {
     "name": "Nlog",
     "pc": {
-      "r": 58,
+      "r": 79,
       "t": 180
     },
     "movement": "c"
@@ -619,7 +619,7 @@ var radar_data = [
   {
     "name": "Cloudfront",
     "pc": {
-      "r": 35,
+      "r": 30,
       "t": 180
     },
     "movement": "c"
@@ -627,7 +627,7 @@ var radar_data = [
   {
     "name": "Windows Server 2016 DC",
     "pc": {
-      "r": 54,
+      "r": 38,
       "t": 180
     },
     "movement": "c"
@@ -635,7 +635,7 @@ var radar_data = [
   {
     "name": "AWS Route53",
     "pc": {
-      "r": 81,
+      "r": 37,
       "t": 180
     },
     "movement": "c"
@@ -643,7 +643,7 @@ var radar_data = [
   {
     "name": "Ubuntu",
     "pc": {
-      "r": 83,
+      "r": 68,
       "t": 180
     },
     "movement": "c"
@@ -651,7 +651,7 @@ var radar_data = [
   {
     "name": "Zabbix",
     "pc": {
-      "r": 85,
+      "r": 90,
       "t": 180
     },
     "movement": "c"
@@ -659,7 +659,7 @@ var radar_data = [
   {
     "name": "Force.com",
     "pc": {
-      "r": 53,
+      "r": 40,
       "t": 180
     },
     "movement": "c"
@@ -668,7 +668,7 @@ var radar_data = [
     "name": "AWS ALB",
     "pc": {
       "r": 115,
-      "t": 236
+      "t": 260
     },
     "movement": "c"
   },
@@ -676,7 +676,7 @@ var radar_data = [
     "name": "logback",
     "pc": {
       "r": 152,
-      "t": 224
+      "t": 200
     },
     "movement": "c"
   },
@@ -684,7 +684,7 @@ var radar_data = [
     "name": "Exceptionless",
     "pc": {
       "r": 242,
-      "t": 216
+      "t": 196
     },
     "movement": "c"
   },
@@ -692,7 +692,7 @@ var radar_data = [
     "name": "AWS SNS",
     "pc": {
       "r": 274,
-      "t": 206
+      "t": 246
     },
     "movement": "c"
   },
@@ -700,7 +700,7 @@ var radar_data = [
     "name": "AWS Lambda",
     "pc": {
       "r": 274,
-      "t": 186
+      "t": 206
     },
     "movement": "c"
   },
@@ -708,7 +708,7 @@ var radar_data = [
     "name": "log4j",
     "pc": {
       "r": 326,
-      "t": 192
+      "t": 248
     },
     "movement": "c"
   },
@@ -716,7 +716,7 @@ var radar_data = [
     "name": "New Relic",
     "pc": {
       "r": 358,
-      "t": 232
+      "t": 216
     },
     "movement": "c"
   },
@@ -724,7 +724,7 @@ var radar_data = [
     "name": "Log4Net",
     "pc": {
       "r": 358,
-      "t": 200
+      "t": 256
     },
     "movement": "c"
   },
@@ -732,7 +732,7 @@ var radar_data = [
     "name": "ApplicationInsight",
     "pc": {
       "r": 358,
-      "t": 256
+      "t": 208
     },
     "movement": "c"
   },
@@ -740,7 +740,7 @@ var radar_data = [
     "name": "Jenkins",
     "pc": {
       "r": 390,
-      "t": 264
+      "t": 192
     },
     "movement": "c"
   },
@@ -748,7 +748,7 @@ var radar_data = [
     "name": "Windows Server 2012 R2 Std",
     "pc": {
       "r": 390,
-      "t": 216
+      "t": 200
     },
     "movement": "c"
   },
@@ -756,7 +756,7 @@ var radar_data = [
     "name": "Windows Server 2012 R2 DC",
     "pc": {
       "r": 390,
-      "t": 224
+      "t": 240
     },
     "movement": "c"
   },
@@ -764,7 +764,7 @@ var radar_data = [
     "name": "Windows Server 2008 R2 DC",
     "pc": {
       "r": 390,
-      "t": 248
+      "t": 224
     },
     "movement": "c"
   }
@@ -779,15 +779,15 @@ var radar_data = [
   {
     "name": ".NET",
     "pc": {
-      "r": 30,
-      "t": 325
+      "r": 46,
+      "t": 310
     },
     "movement": "c"
   },
   {
     "name": "Javascript",
     "pc": {
-      "r": 51,
+      "r": 67,
       "t": 280
     },
     "movement": "c"
@@ -795,23 +795,23 @@ var radar_data = [
   {
     "name": "Python",
     "pc": {
-      "r": 81,
-      "t": 310
+      "r": 85,
+      "t": 340
     },
     "movement": "c"
   },
   {
     "name": "Java",
     "pc": {
-      "r": 58,
-      "t": 340
+      "r": 50,
+      "t": 325
     },
     "movement": "c"
   },
   {
     "name": "SASS",
     "pc": {
-      "r": 61,
+      "r": 76,
       "t": 295
     },
     "movement": "c"
@@ -819,7 +819,7 @@ var radar_data = [
   {
     "name": "Swift",
     "pc": {
-      "r": 48,
+      "r": 42,
       "t": 287
     },
     "movement": "c"
@@ -827,8 +827,8 @@ var radar_data = [
   {
     "name": "R",
     "pc": {
-      "r": 45,
-      "t": 317
+      "r": 48,
+      "t": 332
     },
     "movement": "c"
   },
@@ -836,7 +836,7 @@ var radar_data = [
     "name": "Clojure",
     "pc": {
       "r": 120,
-      "t": 326
+      "t": 338
     },
     "movement": "c"
   },
@@ -844,7 +844,7 @@ var radar_data = [
     "name": "Mono",
     "pc": {
       "r": 126,
-      "t": 302
+      "t": 314
     },
     "movement": "c"
   },
@@ -852,7 +852,7 @@ var radar_data = [
     "name": "Go",
     "pc": {
       "r": 290,
-      "t": 306
+      "t": 316
     },
     "movement": "c"
   },
@@ -860,7 +860,7 @@ var radar_data = [
     "name": "Ruby",
     "pc": {
       "r": 382,
-      "t": 306
+      "t": 322
     },
     "movement": "c"
   },

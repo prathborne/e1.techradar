@@ -14,7 +14,7 @@ radar.add(pv.Label)
     .add(pv.Label)
         .top(100)
         .left(40)
-        .text(lastUpdated)
+        .text("Last updated: " + lastUpdated)
         .font("22px sans-serif");
 
 // contact info
